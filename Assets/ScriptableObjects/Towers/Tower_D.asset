@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d070cc0967896c5459777bdaa0bf7fae, type: 3}
+  m_Name: Tower_D
+  m_EditorClassIdentifier: 
+  buildPrice: 150
+  range: 60
+  shootInterval: 1.5
+  damage: 30
+  poolSize: 3
+  bulletSpeed: 30
+  towerSprite: {fileID: 21300000, guid: 360e6af7c0ac63746b0cd56727956538, type: 3}
+  towerPrefab: {fileID: 4536495809233995548, guid: 3abbcbe4d7a011845abd4d0d656880ff,
+    type: 3}
+  bulletPrefab: {fileID: 7197742931524075232, guid: 6ebf47810f6a62e48afcf55905c4c10c,
+    type: 3}
